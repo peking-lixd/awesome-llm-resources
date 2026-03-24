@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# 数据文件
+*.json
+!package.json
+
+# 日志
+*.log
+
+# 临时文件
+*.tmp
+.DS_Store
+
+# memory
+memory/*.json
