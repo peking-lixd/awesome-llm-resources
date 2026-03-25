@@ -84,11 +84,11 @@
 
 | 论文 | 机构 | 亮点 | arXiv |
 |------|------|------|-------|
-| **Mamba-2** | CMU | 状态空间模型新突破 | [2405.xxxx](https://arxiv.org) |
-| **GPT-4o Technical Report** | OpenAI | 多模态实时交互 | [2405.xxxx](https://arxiv.org) |
-| **Claude 3.5 System Card** | Anthropic | 推理能力大幅提升 | [2406.xxxx](https://arxiv.org) |
-| **Llama 3.1** | Meta | 405B 开源最强 | [2407.xxxx](https://arxiv.org) |
-| **Gemini 1.5 Pro** | Google | 百万 token 上下文 | [2403.xxxx](https://arxiv.org) |
+| **ReViSQL** | 多机构 | 首次在 BIRD 达到人类水平 SQL 生成 | [2603.20004](https://arxiv.org/abs/2603.20004) |
+| **VideoSeek** | 多机构 | 长视频理解提升 10.2%，主动证据检索 | [2603.20185](https://arxiv.org/abs/2603.20185) |
+| **Hallucination Detection** | 多机构 | AAAI 2026 Oral，语义熵检测幻觉 | [2603.22812](https://arxiv.org/abs/2603.22812) |
+| **Chain-of-Thought Faithfulness** | 多机构 | 质疑推理模型 CoT 真实性 | [2603.22582](https://arxiv.org/abs/2603.22582) |
+| **SimpleTool** | 多机构 | 并行解码实现实时函数调用 | [2603.00030](https://arxiv.org/abs/2603.00030) |
 
 📌 **本周完整榜单** → [papers/hot_this_week.md](papers/hot_this_week.md)
 
@@ -109,26 +109,19 @@
 
 | 项目 | Stars | 简介 | 链接 |
 |------|-------|------|------|
-| **LangChain** | 100k+ | LLM 应用开发框架 | [GitHub](https://github.com/langchain-ai/langchain) |
-| **LlamaIndex** | 30k+ | 数据索引与检索 | [GitHub](https://github.com/run-llama/llama_index) |
-| **Haystack** | 15k+ | 生产级 RAG 框架 | [GitHub](https://github.com/deepset-ai/haystack) |
-| **vLLM** | 50k+ | 高吞吐推理引擎 | [GitHub](https://github.com/vllm-project/vllm) |
-
-### 🎯 微调工具
-
-| 项目 | Stars | 简介 | 链接 |
-|------|-------|------|------|
-| **PEFT** | 20k+ | 参数高效微调库 | [GitHub](https://github.com/huggingface/peft) |
-| **LLaMA-Factory** | 15k+ | 一站式微调平台 | [GitHub](https://github.com/hiyouga/LLaMA-Factory) |
-| **Axolotl** | 10k+ | 分布式微调框架 | [GitHub](https://github.com/OpenAccess-AI-Collective/axolotl) |
-
-### 🚀 部署方案
-
-| 项目 | Stars | 简介 | 链接 |
-|------|-------|------|------|
-| **Ollama** | 80k+ | 本地模型运行 | [GitHub](https://github.com/ollama/ollama) |
-| **LM Studio** | - | 桌面端推理 GUI | [官网](https://lmstudio.ai) |
-| **Text Generation Inference** | 5k+ | HuggingFace 推理服务 | [GitHub](https://github.com/huggingface/text-generation-inference) |
+| **Ollama** | 166k | 本地模型运行，一键部署 | [GitHub](https://github.com/ollama/ollama) |
+| **LangChain** | 131k | LLM 应用开发框架 | [GitHub](https://github.com/langchain-ai/langchain) |
+| **vLLM** | 74k | 高吞吐推理引擎 | [GitHub](https://github.com/vllm-project/vllm) |
+| **LLaMA-Factory** | 69k | 一站式微调平台 | [GitHub](https://github.com/hiyouga/LLaMA-Factory) |
+| **AutoGen** | 56k | 多智能体对话框架 | [GitHub](https://github.com/microsoft/autogen) |
+| **LlamaIndex** | 48k | 数据索引与检索 | [GitHub](https://github.com/run-llama/llama_index) |
+| **CrewAI** | 47k | 角色扮演多智能体 | [GitHub](https://github.com/crewAIInc/crewAI) |
+| **DSPy** | 33k | 编程式提示优化 | [GitHub](https://github.com/stanfordnlp/dspy) |
+| **LangGraph** | 27k | 状态图智能体编排 | [GitHub](https://github.com/langchain-ai/langgraph) |
+| **Haystack** | 25k | 生产级 RAG 框架 | [GitHub](https://github.com/deepset-ai/haystack) |
+| **PEFT** | 21k | 参数高效微调库 | [GitHub](https://github.com/huggingface/peft) |
+| **Axolotl** | 12k | 分布式微调框架 | [GitHub](https://github.com/axolotl-ai-cloud/axolotl) |
+| **Text Generation Inference** | 11k | HuggingFace 推理服务 | [GitHub](https://github.com/huggingface/text-generation-inference) |
 
 📌 **完整项目列表** → [projects/README.md](projects/README.md)
 
