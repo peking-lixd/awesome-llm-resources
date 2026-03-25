@@ -1,17 +1,25 @@
 # 🚀 Awesome LLM Resources
 
+> A curated collection of Large Language Model (LLM) resources including papers, frameworks, and learning paths | 大语言模型领域最全面的资源指南
+
 <div align="center">
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Update](https://img.shields.io/badge/update-weekly-blue)
 ![Stars](https://img.shields.io/github/stars/peking-lixd/awesome-llm-resources?color=yellow)
 ![Issues](https://img.shields.io/github/issues/peking-lixd/awesome-llm-resources?color=red)
+![Last Commit](https://img.shields.io/github/last-commit/peking-lixd/awesome-llm-resources)
+![Awesome](https://awesome.re/badge.svg)
 
-**大语言模型领域最全面的资源指南**
+**Comprehensive guide to Large Language Models (LLM), ChatGPT, GPT-4, Claude, and AI research**
+
+**大语言模型、ChatGPT、GPT-4、Claude 与 AI 研究的全面指南**
+
+📚 Classic Papers · 🔥 Latest Research · 🛠️ Open Source Projects · 📖 Learning Roadmap
 
 📚 经典论文 · 🔥 前沿研究 · 🛠️ 开源项目 · 📖 学习路线
 
-[快速开始](#-快速开始) · [经典论文](#-经典论文必读) · [热门前沿](#-热门前沿) · [开源项目](#-开源项目) · [学习路线](#-学习路线)
+[Quick Start](#-快速开始) · [Papers](#-经典论文必读) · [Trending](#-热门前沿) · [Projects](#-开源项目) · [Learning](#-学习路线)
 
 </div>
 
