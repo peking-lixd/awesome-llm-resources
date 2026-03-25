@@ -6,18 +6,72 @@ __pycache__/
 .Python
 env/
 venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
+.installed.cfg
+*.egg
 
-# 数据文件
-*.json
-!package.json
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# 日志
-*.log
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# 临时文件
-*.tmp
+# OS
 .DS_Store
+Thumbs.db
 
-# memory
-memory/*.json
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Model weights (large files)
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+models/
+checkpoints/
+
+# Data
+data/raw/
+data/processed/
+*.csv
+*.jsonl
+!*.json
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation
+docs/_build/
