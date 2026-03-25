@@ -75,3 +75,15 @@ htmlcov/
 
 # Documentation
 docs/_build/
+
+# Scripts and internal tools
+scripts/
+*.sh
+
+# Memory and state
+memory/
+state/
+.cache/
+
+# CI/CD
+.github/

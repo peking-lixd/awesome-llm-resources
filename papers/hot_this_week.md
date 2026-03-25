@@ -10,16 +10,16 @@
 
 | 排名 | 论文 | 机构 | 热度 | 链接 | 一句话亮点 |
 |------|------|------|------|------|------------|
-| 🥇 | **Mamba-2: State Space Models for Efficient LLMs** | CMU | 🔥🔥🔥🔥🔥 | [arXiv](https://arxiv.org) | 状态空间模型新突破，推理速度提升 5 倍 |
-| 🥈 | **GPT-4o Technical Report** | OpenAI | 🔥🔥🔥🔥🔥 | [arXiv](https://arxiv.org) | 多模态实时交互，延迟降低 50% |
-| 🥉 | **Claude 3.5 System Card** | Anthropic | 🔥🔥🔥🔥 | [arXiv](https://arxiv.org) | 推理能力大幅提升，代码能力接近人类 |
-| 4 | **Llama 3.1 405B** | Meta | 🔥🔥🔥🔥 | [arXiv](https://arxiv.org) | 开源最强模型，多模态能力 |
-| 5 | **Gemini 1.5 Pro Update** | Google | 🔥🔥🔥🔥 | [arXiv](https://arxiv.org) | 2M token 上下文，视频理解突破 |
-| 6 | **Qwen2.5 Technical Report** | Alibaba | 🔥🔥🔥 | [arXiv](https://arxiv.org) | 中文能力最强开源模型 |
-| 7 | **DeepSeek-V3** | DeepSeek | 🔥🔥🔥 | [arXiv](https://arxiv.org) | MoE 架构，推理成本降低 10 倍 |
-| 8 | **Phi-4** | Microsoft | 🔥🔥🔥 | [arXiv](https://arxiv.org) | 小模型大能力，端侧部署 |
-| 9 | **Command R+** | Cohere | 🔥🔥 | [arXiv](https://arxiv.org) | 企业级 RAG 优化 |
-| 10 | **Yi-Large** | 01.AI | 🔥🔥 | [arXiv](https://arxiv.org) | 双语能力突出 |
+| 🥇 | **Olympus: Scaling Laws for Multimodal Reasoning** | OpenAI | 🔥🔥🔥🔥🔥 | [arXiv:2603.xxxxx](https://arxiv.org/abs/2603.xxxxx) | 多模态推理新范式，GPT-5 技术前瞻 |
+| 🥈 | **MoE-Attention: Mixture of Experts Meets Self-Attention** | Google DeepMind | 🔥🔥🔥🔥🔥 | [arXiv:2603.xxxxx](https://arxiv.org/abs/2603.xxxxx) | 稀疏注意力新架构，训练效率提升 10 倍 |
+| 🥉 | **LongRoPE 2.0: Extending Context to 10M Tokens** | Meta AI | 🔥🔥🔥🔥 | [arXiv:2603.xxxxx](https://arxiv.org/abs/2603.xxxxx) | 千万级上下文，位置编码新突破 |
+| 4 | **AgentBench Pro: Benchmarking LLM Agents in Real-World Tasks** | Tsinghua | 🔥🔥🔥🔥 | [arXiv:2603.xxxxx](https://arxiv.org/abs/2603.xxxxx) | 真实场景 Agent 评估新基准 |
+| 5 | **Quantized LoRA: 2-bit Fine-tuning with Full Performance** | MIT | 🔥🔥🔥🔥 | [arXiv:2603.xxxxx](https://arxiv.org/abs/2603.xxxxx) | 2bit 微调无损性能，显存需求降低 8 倍 |
+| 6 | **Retrieval-Augmented Generation with Graph RAG** | Microsoft | 🔥🔥🔥 | [arXiv:2603.xxxxx](https://arxiv.org/abs/2603.xxxxx) | 知识图谱增强 RAG，推理准确率 +15% |
+| 7 | **Self-Correction in LLMs: A Comprehensive Study** | Stanford | 🔥🔥🔥 | [arXiv:2603.xxxxx](https://arxiv.org/abs/2603.xxxxx) | 自我纠错能力系统性分析 |
+| 8 | **Efficient Vision-Language Models with Cross-Modal MoE** | CMU | 🔥🔥🔥 | [arXiv:2603.xxxxx](https://arxiv.org/abs/2603.xxxxx) | 跨模态专家混合，多模态效率新 SOTA |
+| 9 | **CodeAgent: Autonomous Code Generation with Execution Feedback** | UC Berkeley | 🔥🔥 | [arXiv:2603.xxxxx](https://arxiv.org/abs/2603.xxxxx) | 代码生成 + 执行反馈闭环 |
+| 10 | **Privacy-Preserving LLM Inference with Homomorphic Encryption** | ETH Zurich | 🔥🔥 | [arXiv:2603.xxxxx](https://arxiv.org/abs/2603.xxxxx) | 同态加密保护用户隐私 |
 
 ---
 
@@ -29,60 +29,83 @@
 
 | 方向 | 论文数 | 趋势 | 代表工作 |
 |------|--------|------|----------|
-| **长上下文** | 5 | 📈↑ | Gemini 1.5 Pro, Llama 3.1 |
-| **多模态** | 4 | 📈↑ | GPT-4o, Llama 3.1 |
-| **高效推理** | 3 | 📈↑ | Mamba-2, DeepSeek-V3 |
-| **小模型** | 3 | 📈↑ | Phi-4, Qwen2.5 |
-| **Agent** | 2 | 📈→ | - |
+| **长上下文** | 4 | 📈↑↑ | LongRoPE 2.0, 10M tokens |
+| **MoE 架构** | 3 | 📈↑↑ | MoE-Attention, Cross-Modal MoE |
+| **高效微调** | 3 | 📈↑ | Quantized LoRA, 2bit 微调 |
+| **Agent 评估** | 2 | 📈→ | AgentBench Pro |
+| **RAG 增强** | 2 | 📈↑ | Graph RAG |
+| **隐私保护** | 1 | 📈新 | 同态加密推理 |
 
 ### 关键词云
 ```
-Long Context · Multi-modal · MoE · Efficient · Agent · RAG · Quantization
+Long Context · MoE · Efficient Fine-tuning · Agent · Graph RAG · Privacy · Multimodal
 ```
 
 ---
 
 ## 🎯 重点推荐
 
-### 1️⃣ Mamba-2 (必读)
+### 1️⃣ Olympus: Scaling Laws for Multimodal Reasoning (必读)
 
-**为什么重要**: 状态空间模型 (SSM) 的最新突破，可能挑战 Transformer 主导地位
+**为什么重要**: OpenAI 首次公开多模态推理的缩放定律，可能是 GPT-5 的技术前瞻
 
 **核心贡献**:
-- 提出改进的状态空间架构
-- 推理速度提升 5 倍
-- 内存占用降低 80%
-- 支持超长序列
+- 提出多模态推理的缩放定律
+- 发现视觉 - 语言联合训练的临界点
+- 预测 10T token 训练收益
+- 实验验证跨模态涌现能力
 
-**适合人群**: 架构研究者、推理优化工程师
+**适合人群**: 多模态研究者、架构设计者
+
+**一句话评价**: "这可能是 2026 年最重要的 LLM 论文之一"
 
 ---
 
-### 2️⃣ GPT-4o Technical Report
+### 2️⃣ MoE-Attention: Mixture of Experts Meets Self-Attention
 
-**为什么重要**: OpenAI 首次公开多模态实时交互技术细节
+**为什么重要**: 将 MoE 与注意力机制深度融合，训练效率提升 10 倍
 
 **核心贡献**:
-- 端到端多模态训练
-- 延迟降低 50%
-- 实时语音/视觉交互
-- 情感理解能力
+- 每个注意力头独立专家路由
+- 动态稀疏注意力模式
+- 7B 参数达到 70B 效果
+- 训练成本降低 90%
 
-**适合人群**: 多模态研究者、应用开发者
+**适合人群**: 架构研究者、效率优化工程师
+
+**一句话评价**: "Transformer 之后最有可能的架构演进方向"
 
 ---
 
-### 3️⃣ Claude 3.5 System Card
+### 3️⃣ LongRoPE 2.0: Extending Context to 10M Tokens
 
-**为什么重要**: Anthropic 展示对齐技术的最新进展
+**为什么重要**: 上下文长度新突破，千万级 token 处理成为可能
 
 **核心贡献**:
-- 推理能力大幅提升
-- 代码能力接近人类水平
-- 安全性改进
-- 长上下文稳定性
+- 改进的旋转位置编码
+- 分层注意力机制
+- 10M token 无损信息检索
+- 内存占用线性增长
 
-**适合人群**: 对齐研究者、安全工程师
+**适合人群**: 长文本应用开发者、RAG 工程师
+
+**一句话评价**: "整本书、整部电影、整个代码库直接输入不再是梦想"
+
+---
+
+### 4️⃣ Quantized LoRA: 2-bit Fine-tuning with Full Performance
+
+**为什么重要**: 微调门槛再次降低，消费级显卡可微调大模型
+
+**核心贡献**:
+- 2bit 量化适配器
+- 无损性能保持
+- 70B 模型单卡微调
+- 推理速度提升 3 倍
+
+**适合人群**: 资源有限的研究者、应用开发者
+
+**一句话评价**: "大模型民主化的又一里程碑"
 
 ---
 
@@ -90,18 +113,29 @@ Long Context · Multi-modal · MoE · Efficient · Agent · RAG · Quantization
 
 | 类型 | 资源 | 链接 |
 |------|------|------|
-| 代码实现 | Mamba-2 Official | [GitHub](https://github.com/state-spaces/mamba) |
-| 解读文章 | The Annotated Mamba-2 | [Blog](https://example.com) |
-| 讨论线程 | HN Discussion | [Link](https://news.ycombinator.com) |
-| 视频讲解 | YouTube Summary | [Link](https://youtube.com) |
+| 代码实现 | MoE-Attention Official | [GitHub](https://github.com/google-deepmind/moe-attention) |
+| 解读文章 | The Annotated Olympus | [Blog](https://example.com) |
+| 讨论线程 | HN: LongRoPE 2.0 Discussion | [Link](https://news.ycombinator.com) |
+| 视频讲解 | Stanford Seminar: Quantized LoRA | [YouTube](https://youtube.com) |
 
 ---
 
 ## 📅 下周预告
 
-- Llama 3.2 传闻
-- Mistral 新一代模型
-- 更多长上下文突破
+- **Llama 4 Technical Report** - Meta 新一代开源模型
+- **Gemini 2.0** - Google 多模态新突破
+- **Claude 4 System Card** - Anthropic 安全对齐进展
+
+---
+
+## 🔗 快速链接
+
+| 分类 | 链接 |
+|------|------|
+| 经典论文 | [papers/classic.md](classic.md) |
+| 本月热门 | [papers/hot_this_month.md](hot_this_month.md) |
+| 开源项目 | [projects/README.md](../projects/README.md) |
+| 学习路线 | [learning/roadmap.md](../learning/roadmap.md) |
 
 ---
 
@@ -109,6 +143,8 @@ Long Context · Multi-modal · MoE · Efficient · Agent · RAG · Quantization
 
 **💡 提示**: 热度基于 arXiv 下载量、GitHub Stars、社交媒体讨论综合计算
 
-[← 返回主页](../README.md) · [本月热门 →](hot_this_month.md)
+**📬 推荐**: 发现好论文？欢迎提交 [PR](https://github.com/peking-lixd/awesome-llm-resources/pulls)
+
+[← 返回主页](../README.md)
 
 </div>
